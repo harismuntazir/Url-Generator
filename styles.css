@@ -1,0 +1,106 @@
+/* generals */
+
+/* changes to main css */
+#main_body {
+    text-align: center;
+    padding-top: 2%;
+}
+/* urlGenForm*/
+
+#urlGenForm {
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Comic Sans MS", sans-serif;
+    margin: 0 2% 2%;
+    border: 2px solid rgba(255, 165, 0, 0);
+    width: 60%;
+    float: left;
+}
+.MainUrlBox {
+    height: 35px;
+    width: 80%;
+    float: left;
+    margin: 0 0 0 2%;
+    font-size: medium;
+    font-family: "Comic Sans MS", sans-serif;
+    vertical-align: center;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px orangered;
+    padding-left: 10px;
+}
+#parm {
+    display: inline-block;
+    margin: 0 0 2%;
+    border: 2px solid rgba(210, 105, 30, 0);
+    float: left;
+    min-width: 34%;
+    width: max-content;
+    font-size: large;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: bold;
+}
+#parmstart {
+    display: block;
+    margin: 2%;
+}
+#parmend {
+display: block;
+    margin: 2%;
+}
+
+#extraUrl {
+    display: block;
+    margin: 0 0 2%;
+}
+.extraUrl {
+    width: 20%;
+    float: none;
+}
+#CheckBox {
+    display: inline-block;
+    margin: 0 0 2%;
+    text-shadow: 2px 2px 5px magenta;
+}
+.checkBox {
+    box-shadow: 2px 2px 5px magenta;
+}
+#CharLead {
+    display: block;
+    margin:  0 0 2%;
+}
+#charfield {
+    display: block;
+    margin: 0 0 1%;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+#count {
+    display: block;
+    margin: 0 0 1%;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+#start {
+    display: block;
+}
+.start {
+    background: #ffab0c;
+    box-shadow: 2px 2px 5px purple;
+    width: 15%;
+    height: 8%;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Times New Roman", sans-serif;
+    border-radius: 20px;
+    border: none;
+}
+
+/* generate.php */
+#sampleList {
+    font-family: "Comic Sans MS", sans-serif;
+     color: darkblue;
+}
