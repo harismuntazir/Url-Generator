@@ -18,14 +18,12 @@
 <section id="main">
     <section id="header">
         <section id="logo">
-            <a href="https://errorworld.in/"><img src="../content/images/logos/logo.jpg" class="logo"/></a>
+            <a href="https://errorworld.in/"></a>
         </section>
-        <?php require_once "../header.php" ?>
     </section>
 
     <?php
 //html
-require_once "../menu.php";
 //take user input
 
 $mainUrl = $_POST['mainUrl'];
@@ -67,4 +65,3 @@ echo "<section id='start'>";
     echo ucwords("<br /> note: you can rename the file to .txt format.");
 echo "</section>";
 echo "</section>";
-require_once "../footer.php";
