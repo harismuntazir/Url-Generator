@@ -34,12 +34,10 @@
     <section id="main">
         <section id="header">
             <section id="logo">
-                <a href="https://errorworld.in/"><img src="../content/images/logos/logo.jpg" class="logo"/></a>
+                <a href="https://errorworld.in/"></a>
             </section>
-            <?php require_once "../header.php" ?>
         </section>
 
-        <?php require_once "../menu.php" ?>
 
         <section id="main_body">
             <form action="generate.php" method="post">
@@ -85,8 +83,6 @@
                 </section>
             </form>
         </section>
-
-        <?php require_once "../footer.php" ?>
     </section>
     </body>
     </html>
